@@ -1,0 +1,146 @@
+ .bungkus{
+  top:900px ;
+  position: relative;
+ }
+ .kampus11
+ {
+    position: absolute;
+    text-align: center;
+    top: -55px;
+    width: 1600px;
+    height: 1100px;
+    left: -1100px;
+    z-index: 0;
+ }
+ .wee {
+  position: relative;
+  font-size: 50px;
+  font-weight: bold;
+  color: #111827;
+  margin: 120px 0 30px 50px;
+  padding-right: 10px;
+  white-space: nowrap;        /* agar teks tidak pindah ke baris baru */
+  overflow: hidden;           /* sembunyikan karakter yang belum diketik */
+  width: fit-content;         /* lebar hanya sesuai konten */
+  border-right: 3px solid #111827;  /* kursor | */
+  animation: blink 0.5s step-end infinite;
+  top: 300px;
+  left:100px;
+  color: #544aec;
+}
+
+/* Efek blinking untuk kursor garis (|) */
+@keyframes blink {
+  0%, 100% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #111827;
+  }
+}
+
+ .kon{
+    position: relative;
+    z-index: 5;
+    left: 550px;
+    font-weight: bold;
+   font-size: 70px;
+   top: 400px;
+ }
+ .kon a{
+    color: #ffffff;
+ }
+ .obj1{
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+    top: 600px;
+
+    position: relative;
+    z-index: 10;
+    left: 30px;
+    
+ }
+ .obj2{
+    font-size: 25px;
+    position: relative;
+    top: 580px;
+    left: 28px;
+ }
+ .obj3{
+    position:relative ;
+    top: 560px;
+    width: 900px;
+    height: 40px;
+    display: flex; 
+    left: 30px;
+    justify-content: space-between;
+     right: 900px;
+}
+.obj3 input{
+    width: 300px;
+    border-radius: 8px;
+    left: -40px;
+    padding-right: 20px;
+    border: solid #544aec;
+}
+.obj6{
+    left: 100px;
+    position: absolute;
+    height: 36px;
+    margin-left: 450px;
+}
+.obj4{
+    top:550px;
+    position: relative;
+    left: 30px;
+    text-align: left;
+    border-radius: 10px;
+}
+.obj4 input{
+    width: 730px;
+    height: 200px;
+    border-radius: 60x;
+    text-align: left;
+    padding-top: -300px;
+   border: solid #544aec;
+}
+.obj5{
+    top: 540px;
+    position: relative;
+    left: -270px;
+}
+.contact56{
+    display: block;
+    position: relative;
+    left: 1000px;
+    width: 350px;
+    line-height: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: solid #544aec;
+}
+.sosmed-box {
+  display: flex;
+  gap: 15px;
+  margin-top: 8px;
+  list-style: none;
+}
+
+.social-icon {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  color: #111827;
+  font-size: 20px;
+  text-decoration: none;
+   
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  background-color: #544aec;
+  color: #ffffff;
+  
+}
