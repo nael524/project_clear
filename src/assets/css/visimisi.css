@@ -1,0 +1,295 @@
+ .imgBack{
+  position: absolute;
+  margin-left: -1100px;
+  margin-top: 370px;
+  
+ }
+ .imgBack img{
+  width: 1550px;
+  height: 460px;
+  filter: blur(1px);
+   transform:translateY(-10px);
+ }
+ .link{
+  position: relative;
+  text-align: center;
+  font-size: 50px;
+  top: 150px;
+  color: rgb(252, 252, 252);
+  font-weight: bold;
+ }
+ .link a{
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+ }
+ .visi{
+  position: relative;
+  top: 360px;
+  color: black;
+  font-weight: normal;
+  font-size: 20px;
+  width: 500px;
+  text-align:justify ;
+  left: 500px;
+  
+ }
+ .visi1{
+  font-weight: bold;
+  left: 200px;
+  font-size: 50px ;
+   margin-bottom: 100px;
+  
+}
+.misi1{
+  position: relative;
+  margin-top: 100px;
+  text-align: center;
+  margin-top: 300px;
+  left:690px;
+  font-weight: bold;
+  font-size: 50px;   
+}
+.misi{
+  position: relative;
+  left: 40px;
+  margin-top: 400px;
+  font-size: 20px;
+  width: 700px;
+  line-height: 30px;
+  margin-left: 10px;
+  top: 200px;
+}
+.misi2{
+  position: relative;
+  margin-top: -210px;
+  text-align: center;
+  left: 800px;
+ font-size: 20px;
+  text-align: left;
+  width: 600px;
+}
+.no1{
+  background-color:#544aec;
+  left: 0px;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  color: aliceblue;
+  padding-top: 10px;
+  top: 60px;
+  left: -10px;
+}
+.no2{
+    
+  background-color:#544aec;
+  left: 0px;
+ width: 40px;
+ height: 40px;
+  border-radius: 10px;
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  color: aliceblue;
+  padding-top: 10px;
+  top: 130px;
+   left: -10px;
+  
+}
+.no3{
+  background-color:#544aec;
+  left: 0px;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  color: aliceblue;
+  padding-top: 10px;
+  top: 200px;
+    left: -10px;
+}
+.no4{
+background-color:#544aec;
+  left: 0px;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  color: aliceblue;
+  padding-top: 10px;
+  margin-top: 5px;
+  left: -10px;
+}
+.no5{
+background-color:#544aec;
+  left: 0px;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  color: aliceblue;
+  padding-top: 10px;
+  margin-top: 5px;
+    left: -10px;
+}
+.nilo{
+  left: -200px;
+  font-size: 50px;
+}
+.tujuan{
+  position: relative;
+  left: 40px;
+  top: 600px;
+  font-size: 20px;
+  width: 700px;
+  line-height: 30px;
+  margin-left: 10px;
+}
+.tujuan .misi1{
+  left: 650px;
+  position: relative;
+}
+.tujuan .misi2{
+  top: 0px;
+  position: relative;
+}
+.nilai{
+  position: relative;
+  font-weight: bold;
+  top: 300px;
+  left: 700px;
+ font-size: 40px;
+ display: flex;
+ color: black;
+ margin-bottom: 40px;
+ margin-left: 180px;
+}
+.nilai nav{}
+.beri{
+position: relative;
+left:-950px ;
+display: block;
+line-height: 30px;
+font-size: 20px;
+text-align: left;
+background-color: white;
+top: 50px;
+color: #544aec;
+margin-top:100px ;
+}
+.beri1{
+  text-align: center;
+  font-size: 20px;
+  left: 40px;
+  background-color: black;
+  color: aliceblue;
+  position: absolute;
+  width: 130px;
+  border-radius: 10px;
+  height: 40px;
+  margin-top: -50px;
+  text-align: center;
+  padding-top: 10px;
+  left: 75px;
+}
+.bud{
+display: block;
+color: black;
+position: relative;
+left: -680px;
+font-size: 20px;
+margin-top: -80px;
+width: 400px;
+color: #544aec;
+top: 30px;
+}
+.bud1{
+text-align: center;
+  font-size: 20px;
+  left: 40px;
+  background-color: black;
+  color: aliceblue;
+  position: absolute;
+  width: 130px;
+  border-radius: 10px;
+  height: 60px;
+  margin-top: -70px;
+  text-align: center;
+  padding-top: 10px;
+  left: 75px;
+  
+}
+.berbudaya{
+  position: absolute;
+  left: -300px;
+  font-size: 20px;
+  display: block;
+  margin-top: -310px;
+}
+.berbin{
+   position: absolute;
+  left: -50px;
+  font-size: 20px;
+  display: block;
+  margin-top: -310px;
+}
+.berke{
+     position: absolute;
+  left: 230px;
+  font-size: 20px;
+  display: block;
+  margin-top: -310px;
+}
+.beri2{
+  text-align: center;
+  font-size: 20px;
+  left: 40px;
+  background-color: black;
+  color: aliceblue;
+  position: absolute;
+  width: 140px;
+  border-radius: 10px;
+  height: 40px;
+  margin-top: -50px;
+  text-align: center;
+  padding-top: 10px;
+  left: 75px;
+}
+.beri3{
+  text-align: center;
+  font-size: 20px;
+  left: 40px;
+  background-color: black;
+  color: aliceblue;
+  position: absolute;
+  width: 170px;
+  border-radius: 10px;
+  height: 40px;
+  margin-top: -50px;
+  text-align: center;
+  padding-top: 10px;
+  left: 75px;
+}
+.beri4{
+  text-align: center;
+  font-size: 20px;
+  left: 40px;
+  background-color: black;
+  color: aliceblue;
+  position: absolute;
+  width: 190px;
+  border-radius: 10px;
+  height: 40px;
+  margin-top: -50px;
+  text-align: center;
+  padding-top: 10px;
+  left: 75px;
+}
