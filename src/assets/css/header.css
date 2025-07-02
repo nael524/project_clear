@@ -1,52 +1,64 @@
-li{
-    list-style: none;
-    padding: 0;
-    padding-top: 10px;
-    margin-left: 40px;  
-     
+li {
+  list-style: none;
+  padding: 0;
+  padding-top: 10px;
+  margin-left: 40px;
 }
-nav{
-    color: #544AEC;
-    font-family: 'Inter', sans-serif;
+nav {
+  color: #544aec;
+  font-family: "Inter", sans-serif;
 }
-ul{
-    display: flex;
-   justify-content: space-between;
-   gap: 30;
+ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 40;
 }
-.St{
-    color: black;
-    font-weight: bold;
-    font-size: 30px;
-    margin-left: 0;
+.St {
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 0;
 }
-.Bh{
-    color: #544AEC;
+
+.Bh {
+  color: #544aec;
+  left: 0px;
 }
-button{
-    color: white;
-    background-color: #544AEC;
-    border-radius: 10px;
-    width: 100px;
-    height: 40px;
-    margin-left: 500px;
+button {
+  color: white;
+  background-color: #544aec;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  margin-left: 300px;
 }
-header{
-    display: flex;
-    
+header {
+  display: flex;
 }
-.home{
-    margin-left: 150px;
-    margin-top: 9px;
+.home {
+  margin-left: 150px;
+  margin-top: 9px;
 }
-.sty{
-    margin-top: 9px;
+.sty {
+  margin-top: 9px;
+  width: 110px;
+  position: relative;
+  left: 30px;
 }
-a{
-    text-decoration: none;
-    color:#544AEC  ;
+a {
+  text-decoration: none;
+  color: #544aec;
 }
- .sty1{
-    color: aliceblue;
- }
-  
+.sty1 {
+  color: #f1f1f1;
+  position: relative;
+  z-index: 10;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  top: 0px;
+  left: 300px;
+  padding: 10px 30px;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #544aec;
+}

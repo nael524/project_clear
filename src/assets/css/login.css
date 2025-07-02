@@ -1,0 +1,54 @@
+.login{
+    background-color: #544AEC;
+    height: 200vh;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+.login form{
+    position: absolute;
+    top: 250px;
+}
+form .input1{
+    width: 400px;
+    height: 30px;
+    border-radius: 8px;
+    top:60px ;
+    position: relative;
+}
+form .button1{
+    height:40px;
+    position: absolute;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    z-index: 10;
+    width: 130px;
+    left: -150px;
+    top: 200px;
+}
+.h23{
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+    position: relative;
+    text-align: center;
+   left: 0px;
+   margin-top: 150px;
+}
+.coaa{
+    background-color: white;
+    color: #544AEC;
+    width: 140px;
+    height: 40px;
+    position: absolute;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 10px;
+    left:40px;
+    padding: auto;
+    z-index: 15;
+}
+ 
