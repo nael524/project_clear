@@ -1,4 +1,5 @@
 // src/components/Footer.jsx
+import { Link } from "react-router-dom";
 import "../assets/css/footer.css"; // pastikan path sesuai
 import logo from "../assets/img/logo1.png"
 export default function Footer() {
@@ -16,15 +17,15 @@ export default function Footer() {
           multikultural.
         </a>
 
-        <a className="kampus">
+        <Link className="kampus">
           Kampus <br />
-          <a href="/Contact">Kontak</a>
+          <Link to="/Contact">Kontak</Link>
           <br />
-          <a href="/Fasilitas">Fasilitas</a>
+          <Link to="/Fasilitas">Fasilitas</Link>
           <br />
-          <a href="/Visi">Visi Misi</a><br />
-           <a href="/Fakultas">Fakultas</a>
-        </a>
+          <Link to="/Visi">Visi Misi</Link><br />
+           <Link to="/Fakultas">Fakultas</Link>
+        </Link>
      <div className="footer-inner" style={{marginTop:"-50px"}}>
         <section className="footer-location"> 
           <div className="map-wrapper"><span style={{fontSize:"30px",left:'-10px',fontWeight:'bold'}}>Lokasi</span> 

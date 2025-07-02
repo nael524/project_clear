@@ -1,15 +1,15 @@
 import '../assets/css/header.css';
 import { Link } from "react-router-dom";
- 
+ import { Helmet } from "react-helmet";
 const Header = () => {
   return (
     <header>
-      <head>
+      <Helmet>
         <link
           href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
           rel="stylesheet"
         />
-      </head>
+      </Helmet>
       <nav>
         <ul>
           <li className="St">
