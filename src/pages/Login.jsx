@@ -1,12 +1,12 @@
 import React from "react";
- 
+import { Link } from "react-router-dom";
 import '../assets/css/login.css'
 const Login = () => {
   return (
     <div  >
 
         <div className="login"> 
-            <h3><a className="coaa" href="/Beranda">Back to Home</a> </h3>
+            <h3><Link className="coaa" to="/Beranda">Back to Home</Link> </h3>
       <h2 className="h23">LOGIN</h2>
       <form>
         <input className="input1" type="text" placeholder="Username" /> <br /><br />
