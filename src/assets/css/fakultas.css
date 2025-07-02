@@ -1,0 +1,115 @@
+.fakultas{
+    top:20px ;
+    left: -960px;
+    width: 1300px;
+    height: 300px;
+   filter: blur(3px);
+    border-radius: 10px;
+}
+.conn{
+    position: relative;
+    left: 0;
+    margin-top: -200px;
+    text-align: center;
+    font-weight: bold;   
+}
+.conn a{
+    color: #000000;
+    font-size: 70px;
+}
+.fak{
+    position: absolute;
+    left: 100px;
+    font-weight: bold;
+    font-size: 40px;
+    top:700px;
+}
+.isi{
+    font-size: 20px;
+    width: 300px;
+    left: -40px;
+    position: absolute;
+}
+.berbagam{
+    width: 300px;
+    position: absolute;
+    left: -700px;
+    top: -50px;
+}
+.berbagam  img{
+    width: 400px;
+    top: -50px;
+    border-radius: 10px;
+}
+.berbagam1{
+    width: 300px;
+    position: absolute;
+    left: 150%;
+
+}
+.berbagam1 img{
+    width: 400px;
+    top: -520px;
+    border-radius: 10px;
+}
+.fade-target {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: opacity 0.8s ease-out, transform 1.2s ease-out;
+}
+
+.fade-target.fade-in {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+ .fakultas-item {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+  z-index: 20;
+}
+.fade-target {
+  opacity: 1 !important;
+  transform: none !important;
+}
+.fakultas-item img {
+  width: 400px;
+  border-radius: 10px;
+   z-index: 10;
+   position: relative;
+}
+
+.label-overlay {
+  position: relative;
+  bottom: 10px;
+  left: 1250px;
+  z-index: 10;
+  color: rgb(255, 255, 255);
+  background-color: #333;
+  width: 100px;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 16px;
+  top: -190px;
+  text-align: center;
+}  
+ 
+ 
+
+.fakultas-item:hover .prodi-dropdown {
+  display: block;
+}
+
+.prodi-dropdown ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ 
+
+.prodi-dropdown li:last-child {
+  border-bottom: none;
+}

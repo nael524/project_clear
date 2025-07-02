@@ -1,0 +1,25 @@
+/* ====== Layout dasar agar footer selalu “nempel” ====== */
+html, body {               /* ➊ halaman setinggi layar */
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.app-wrapper {             
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;       
+}
+
+.page-content { 
+  flex: 1;                 
+}
+ 
+.page-content{
+  position: relative;      
+ 
+
+  
+  padding-bottom: 1200px;   
+}
